@@ -17,14 +17,9 @@
   }
   100% {
     background-color: purple;
-  }
-}
-@-webkit-keyframes bgcolorchange {
-    0%   {background: red;}
-    25%  {background: green;}
-    50%  {background: blue;}
-    75%  {background: yellow;}
-    100% {background: purple;}
+    50%  {background: blue;
+    75%  {background: yellow;
+    100% {background: purple;
 }
 a{
   font-size:10em;
@@ -36,4 +31,9 @@ p{
 h1{
   font size:10em;
   color:silver
+}
+
+.halfwidth {
+  width: 49%;
+  display: inline-flex;
 }
